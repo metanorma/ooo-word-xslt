@@ -1,0 +1,27 @@
+= LibreOffice core Word conversion XSLT files
+
+== Purpose
+
+LibreOffice's XSLT files are supremely useful for the seemingly impossible task of parsing OOXML Word documents properly.
+
+== License
+
+These XSLT files are provided by LibreOffice under https://opensource.org/licenses/MPL-2.0[MPL 2.0], and are offered as such here.
+
+
+== History
+
+2019/11/21: Initial import. From https://github.com/LibreOffice/core[LibreOffice/core], at commit https://github.com/LibreOffice/core/commit/7e6897b7c3d3aaa19b793c518bee27a08732736b[7e6897b7c3d3aaa19b793c518bee27a08732736b].
+
+[cols="a,a",options="header"]
+|===
+| File in original repo | File in current repo
+
+|`core/filter/source/xslt/export/common/ooo2ms_docpr.xsl` | `ooo2wordml/ooo2ms_docpr.xsl`
+|`core/filter/source/xslt/export/wordml/*.xsl` | `ooo2wordml/*.xsl`
+
+|`core/filter/source/xslt/import/common/ms2ooo_docpr.xsl` | `wordml2ooo/ms2ooo_docpr.xsl`
+|`core/filter/source/xslt/import/wordml/*.xsl` | `wordml2ooo/*.xsl`
+
+|===
+
